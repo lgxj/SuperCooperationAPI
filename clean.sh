@@ -1,0 +1,9 @@
+find /var/www/SuperCooperationApi/storage/logs -type f -name "*log*" -mtime +8 -exec rm -rf {} \;
+find /var/log/nginx/ -type f -name "*gz" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "dnf.log.*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "hawkey.log-*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "cron-*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "maillog-*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "spooler-*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "xferlog-*" -mtime +3 -exec rm -rf {} \;
+find /var/log/ -type f -name "messages-*" -mtime +3 -exec rm -rf {} \;

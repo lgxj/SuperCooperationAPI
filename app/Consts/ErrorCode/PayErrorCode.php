@@ -1,0 +1,39 @@
+<?php
+
+
+namespace App\Consts\ErrorCode;
+
+/**
+ * 2位平台号+2位模块号+3位功能+3位业务码号
+ * 内部平台号为10,支付模块05，支付务功能为01，业务错误001
+ *
+ *
+ * Class PayErrorCode
+ * @package App\Consts\ErrorCode
+ */
+class PayErrorCode
+{
+
+    const CHECK_TASK_ORDER_NO = 100501001;
+    const CHECK_TASK_NOT_EXIST = 100501002;
+    const CHECK_TASK_STATE_UN_PAY = 100501003;
+    const CHECK_TASK_STEP_ERROR = 100501004;
+    const CHECK_TASK_NOT_REPEAT = 100501005;
+    const CHECK_TASK_PRICE_ERROR = 100501006;
+    const CHECK_NOT_PERMISSION = 100501007;
+    const CHECK_CHANNEL_NOT_SUPPORT = 100501007;
+    const CHECK_PAY_WAY_NOT_SUPPORT = 100501008 ;
+    const CHECK_USER_ERROR = 100501009;
+    const PAY_FAILED = 100501010;
+
+    const BALANCE_PASSWORD_ERROR = 100502001;
+    const BALANCE_PAY_FAILED = 100502002;
+
+    const NOTIFY_PAY_NOT_EXIST = 100503001;
+    const NOTIFY_PAY_PRICE_ERROR = 100503002;
+    const NOTIFY_FAILED = 100503003;
+    const NOTIFY_WEIXIN_FAILED = 100503004;
+    const NOTIFY_ALIPAY_FAILED = 100503005;
+    const NOTIFY_WEIXIN_REFUND_FAILED = 100503006;
+
+}

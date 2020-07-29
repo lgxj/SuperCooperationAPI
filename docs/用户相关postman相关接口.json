@@ -1,0 +1,4465 @@
+{
+	"info": {
+		"_postman_id": "33629f29-537f-46fe-8a85-78af31f8c996",
+		"name": "supercoo-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "账号",
+					"item": [
+						{
+							"name": "发送手机验证码",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"value": "Nl7kvtV7VX2uWvJ9/Tr7Oupfc9Y=",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-APP",
+										"value": "app571ee64a61eba3d1f895274d334f917d",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"business_type\":0,\n \"account\":13868170930\n\n}"
+								},
+								"url": {
+									"raw": "api.fresh.com/user/verify/sendCode",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"user",
+										"verify",
+										"sendCode"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "验证码登录发送",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "lTetxzgwReNJO66rK3P1XBieOuE="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"business_type\":2,\n \"account\":13868170930\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/verify/sendCode",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"verify",
+										"sendCode"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "重置密码发送验证码",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "mFHqVzhRsHxbabIXIHU+GSKyscE="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"business_type\":1,\n \"account\":18672457501\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/verify/sendCode",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"verify",
+										"sendCode"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "重置支付密码发送验证码",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "mFHqVzhRsHxbabIXIHU+GSKyscE="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"business_type\":4,\n \"account\":13868170930\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/verify/sendCode",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"verify",
+										"sendCode"
+									]
+								},
+								"description": "tst"
+							},
+							"response": [
+								{
+									"name": "重置支付密码发送验证码",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											},
+											{
+												"key": "SC-API-SIGNATURE",
+												"type": "text",
+												"value": "mFHqVzhRsHxbabIXIHU+GSKyscE="
+											},
+											{
+												"key": "SC-API-APP",
+												"type": "text",
+												"value": "app9321c3096489b2aab073ee479ce61f10"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n \"business_type\":4,\n \"account\":13868170930\n\n}"
+										},
+										"url": {
+											"raw": "api.supercoo.com/user/verify/sendCode",
+											"host": [
+												"api",
+												"supercoo",
+												"com"
+											],
+											"path": [
+												"user",
+												"verify",
+												"sendCode"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.15.11"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.3.4"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 13 Dec 2019 09:12:48 GMT"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Allow-Methods",
+											"value": "GET, DELETE,PUT,POST, OPTIONS"
+										},
+										{
+											"key": "Access-Control-Allow-Headers",
+											"value": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,SC-API-APP,SC-API-SIGNATURE,SC-ACCESS-TOKEN"
+										},
+										{
+											"key": "Access-Control-Max-Age",
+											"value": "3600"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"code\": 0,\n    \"message\": \"success\",\n    \"success\": true,\n    \"data\": {\n        \"verify_id\": 68\n    }\n}"
+								},
+								{
+									"name": "重置支付密码发送验证码",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											},
+											{
+												"key": "SC-API-SIGNATURE",
+												"type": "text",
+												"value": "mFHqVzhRsHxbabIXIHU+GSKyscE="
+											},
+											{
+												"key": "SC-API-APP",
+												"type": "text",
+												"value": "app9321c3096489b2aab073ee479ce61f10"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n \"business_type\":4,\n \"account\":13868170930\n\n}"
+										},
+										"url": {
+											"raw": "api.supercoo.com/user/verify/sendCode",
+											"host": [
+												"api",
+												"supercoo",
+												"com"
+											],
+											"path": [
+												"user",
+												"verify",
+												"sendCode"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.15.11"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.3.4"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 13 Dec 2019 09:16:18 GMT"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Allow-Methods",
+											"value": "GET, DELETE,PUT,POST, OPTIONS"
+										},
+										{
+											"key": "Access-Control-Allow-Headers",
+											"value": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,SC-API-APP,SC-API-SIGNATURE,SC-ACCESS-TOKEN"
+										},
+										{
+											"key": "Access-Control-Max-Age",
+											"value": "3600"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"code\": 0,\n    \"message\": \"success\",\n    \"success\": true,\n    \"data\": {\n        \"verify_id\": 69\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "用户手机注册",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"value": "Cl7luz7f+N2sQWMK9ONqS6t57A0=",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-APP",
+										"value": "app571ee64a61eba3d1f895274d334f917d",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"code\":9118,\n \"phone\":13868170930,\n \"password\":\"151suqiango\"\n\n}"
+								},
+								"url": {
+									"raw": "api.fresh.com/user/account/register",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"register"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "用户重置密码",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "yDzNCjxE+FyPH5x78HKFD8bQ6ok="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"code\":466100,\n \"phone\":18672457501,\n \"password\":\"123456\"\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/resetPassword",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"resetPassword"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "用户支付重置密码",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "yDzNCjxE+FyPH5x78HKFD8bQ6ok="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "c71f657eb478003a0590f79763faab21",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"code\":147107,\n \"phone\":13868170930,\n \"password\":\"123456\",\n \"confirm_password\":\"123456\"\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/resetPayPassword",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"resetPayPassword"
+									]
+								},
+								"description": "tst"
+							},
+							"response": [
+								{
+									"name": "用户支付重置密码",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											},
+											{
+												"key": "SC-API-SIGNATURE",
+												"type": "text",
+												"value": "yDzNCjxE+FyPH5x78HKFD8bQ6ok="
+											},
+											{
+												"key": "SC-API-APP",
+												"type": "text",
+												"value": "app9321c3096489b2aab073ee479ce61f10"
+											},
+											{
+												"key": "SC-ACCESS-TOKEN",
+												"value": "c71f657eb478003a0590f79763faab21",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n \"code\":147107,\n \"phone\":13868170930,\n \"password\":\"123456\",\n \"confirm_password\":\"123456\"\n\n}"
+										},
+										"url": {
+											"raw": "api.supercoo.com/user/account/resetPayPassword",
+											"host": [
+												"api",
+												"supercoo",
+												"com"
+											],
+											"path": [
+												"user",
+												"account",
+												"resetPayPassword"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.15.11"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.3.4"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 13 Dec 2019 09:15:07 GMT"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Allow-Methods",
+											"value": "GET, DELETE,PUT,POST, OPTIONS"
+										},
+										{
+											"key": "Access-Control-Allow-Headers",
+											"value": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,SC-API-APP,SC-API-SIGNATURE,SC-ACCESS-TOKEN"
+										},
+										{
+											"key": "Access-Control-Max-Age",
+											"value": "3600"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"code\": 1,\n    \"message\": \"手机验证码不存在\",\n    \"success\": false,\n    \"data\": []\n}"
+								}
+							]
+						},
+						{
+							"name": "用户密码登录",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "GlMq/kc73MXw1eVcMLiVRZSLlOE="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app551ac64a61ebaadbf645274d334f9153"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"phone\":13868170930,\n \"password\":\"123456\"\n}"
+								},
+								"url": {
+									"raw": "api.fresh.com/user/account/login",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"login"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "用户手机验证码登录",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "BDHUeMjzzEctVMJmEqHcnQaFf8g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app571ee64a61eba3d1f895274d334f917d"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"phone\":13868170930,\n \"code\":\"659898\"\n\n}"
+								},
+								"url": {
+									"raw": "api.fresh.com/user/account/login.code",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"login.code"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "用户快速登录注册",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "a3HCS46blU8G7F4wbPnyiS7V5b0="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app571ee64a61eba3d1f895274d334f917d"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"phone\":13868170930,\n \"code\":\"659898\"\n\n}"
+								},
+								"url": {
+									"raw": "api.fresh.com/user/account/login.code",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"login.code"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "用户第三方登录",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "4G6i1HKorcozugiIFHaUaQHKbqU="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "f47584aed5a7af48e9c1ebac72948ca2",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"grant_login_type\": \"weixin\",\n    \"grant_login_identify\": \"ea2341sews\",\n    \"grant_login_credential\": \"fafafaweafafa\",\n    \"grant_user_nickname\": \"jack_su\",\n    \"grant_user_avatar\": \"http://www.baidu.com\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/login.thirdParty",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"login.thirdParty"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| grant_login_type |  登录类型 | string |\n| grant_login_identify |    open_id   |   string |\n| grant_login_credential | access_token |    string |\n| grant_user_nickname |昵称 |    string |\n| grant_user_avatar | 头像 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| SC_ACCESS_TOKEN |  登录凭证 | string |\n| has_phone |    是否绑定手机   |   string |\n| user_id | 用户标识 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "更新用户名和头像",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "4G6i1HKorcozugiIFHaUaQHKbqU="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "b5d2c58121f3617900da7cdf366c7c25",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_name\": \"weixin\",\n    \"user_avatar\": \"http://www.baidu.com\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/update.base",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"update.base"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| grant_login_type |  登录类型 | string |\n| grant_login_identify |    open_id   |   string |\n| grant_login_credential | access_token |    string |\n| grant_user_nickname |昵称 |    string |\n| grant_user_avatar | 头像 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| SC_ACCESS_TOKEN |  登录凭证 | string |\n| has_phone |    是否绑定手机   |   string |\n| user_id | 用户标识 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "更新用户手机号",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "4G6i1HKorcozugiIFHaUaQHKbqU="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "9bf3a55528a0c2a676c14e75d81fb5b8",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"phone\": \"13868170930\",\n    \"code\": \"445201\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/update.phone",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"update.phone"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| grant_login_type |  登录类型 | string |\n| grant_login_identify |    open_id   |   string |\n| grant_login_credential | access_token |    string |\n| grant_user_nickname |昵称 |    string |\n| grant_user_avatar | 头像 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| SC_ACCESS_TOKEN |  登录凭证 | string |\n| has_phone |    是否绑定手机   |   string |\n| user_id | 用户标识 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "更新用户是否接单",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "4G6i1HKorcozugiIFHaUaQHKbqU="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "6da1a31729a4ca3e155ffff1022657ff"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"is_accept_order\": 1\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/update.accept",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"update.accept"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| grant_login_type |  登录类型 | string |\n| grant_login_identify |    open_id   |   string |\n| grant_login_credential | access_token |    string |\n| grant_user_nickname |昵称 |    string |\n| grant_user_avatar | 头像 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| SC_ACCESS_TOKEN |  登录凭证 | string |\n| has_phone |    是否绑定手机   |   string |\n| user_id | 用户标识 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "用户退出",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "e2d7acb625bcbc8c133c8bd1ba773599",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/loginOut",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"loginOut"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取用户信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "89bd87143920ace7c8bd2deeb10fe7cd"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/account/get?user_type=1&is_task_total=1&is_account=1&is_skill=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"account",
+										"get"
+									],
+									"query": [
+										{
+											"key": "user_type",
+											"value": "1",
+											"description": "获取用户类型 不传表示不获取（标签） 0表示雇主、1表示帮手"
+										},
+										{
+											"key": "is_task_total",
+											"value": "1",
+											"description": "是否获取发单数量，user_type必传"
+										},
+										{
+											"key": "is_account",
+											"value": "1",
+											"description": "是否获取钱相关"
+										},
+										{
+											"key": "is_skill",
+											"value": "1",
+											"description": "是否获取技能"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "地址",
+					"item": [
+						{
+							"name": "用户添加地址",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "BDHUeMjzzEctVMJmEqHcnQaFf8g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "c19d120df84fcc83ea747bc10bf00c43",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"user_phone\":13868170930,\n \"user_name\":\"jack.su\",\n \"province\":\"新疆维吾尔自治区\",\n \"city\":\"自治区直辖县级行政区划\",\n \"region\":\"阿拉尔市\",\n \"street\":\"兵团二团\",\n \"address_detail\":\"测试\",\n \"address_id\":\"659002519000\"\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/add",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"add"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "用户更新地址",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "wBoxebXSeMTk5jlxgaAntd+WLmk="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"user_phone\":13868170930,\n \"user_name\":\"jack.su\",\n \"province\":\"新疆维吾尔自治区\",\n \"city\":\"自治区直辖县级行政区划\",\n \"region\":\"阿拉尔市\",\n \"street\":\"兵团二团\",\n \"address_detail\":\"测试2\",\n \"address_id\":\"659002519000\",\n \"id\":2\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/update",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"update"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |"
+							},
+							"response": []
+						},
+						{
+							"name": "设置默认地址",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "xkdq3T4FZjhv0jCD6AZyRYILghE="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\n \"id\":2\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/update.default",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"update.default"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取地址列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/all",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"all"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取地址信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/get?id=3",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"get"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "3"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "删除地址信息",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/delete?id=3",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "3"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "证书",
+					"item": [
+						{
+							"name": "用户添加证书",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "MM5CBohqYgPb/SvsUkOM+VXUL6k="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "real_name",
+											"value": "苏骞",
+											"description": "真实姓名",
+											"type": "text"
+										},
+										{
+											"key": "card_no",
+											"value": "444433332222",
+											"description": "证件号码",
+											"type": "text"
+										},
+										{
+											"key": "card_type",
+											"value": "0",
+											"description": "证件类型",
+											"type": "text"
+										},
+										{
+											"key": "original_url",
+											"description": "证件证本",
+											"type": "file",
+											"src": "/C:/Users/Admin/Desktop/私人/图片/1-1612240U217.jpg"
+										},
+										{
+											"key": "copy_url",
+											"value": "",
+											"description": "证件副本",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "order_category",
+											"value": "1",
+											"description": "服务类型大类",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certificate/add",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certificate",
+										"add"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "用户更新证书",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "Zl3AGvSXd7ThG+ULfNBTKvKnjTY="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "real_name",
+											"value": "苏骞",
+											"description": "真实姓名",
+											"type": "text"
+										},
+										{
+											"key": "card_no",
+											"value": "444433332223",
+											"description": "证件号码",
+											"type": "text"
+										},
+										{
+											"key": "card_type",
+											"value": "0",
+											"description": "证件类型",
+											"type": "text"
+										},
+										{
+											"key": "original_url",
+											"description": "证件证本",
+											"type": "file",
+											"src": "/C:/Users/Admin/Desktop/私人/图片/1-1612240U217.jpg"
+										},
+										{
+											"key": "copy_url",
+											"value": "",
+											"description": "证件副本",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "certify_id",
+											"value": "5",
+											"description": "证件标识",
+											"type": "text"
+										},
+										{
+											"key": "order_category",
+											"value": "1",
+											"description": "服务类型大类",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certificate/update",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certificate",
+										"update"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "证件类型列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certificate/type.list",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certificate",
+										"type.list"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| gov_area_id |  政府区域ID | string |\n| parent_id |    上一级地址ID   |   string |\n| name | 区域名称 |    string |\n| level |第几级，总共四级 |    string |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "删除证书",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "cCdiHiBG236pL1dLJkJfDWVHtTU="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certificate/delete?certify_id=6",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certificate",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "certify_id",
+											"value": "6"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取证书信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "0DCG6+aSafE59lgK72O2r4ECjWo="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certificate/get?certify_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certificate",
+										"get"
+									],
+									"query": [
+										{
+											"key": "certify_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取证书列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/address/all",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"address",
+										"all"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "银行卡",
+					"item": [
+						{
+							"name": "删除银行卡",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "qgVicJp117Vp71jG93su6i8QDmg="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/bank/delete?bank_id=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"bank",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "bank_id",
+											"value": "1"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取银行卡信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "qgVicJp117Vp71jG93su6i8QDmg="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/bank/get?bank_id=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"bank",
+										"get"
+									],
+									"query": [
+										{
+											"key": "bank_id",
+											"value": "1"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "用户添加银行卡",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "kt1jpWQbxHVNmwMTaikBmbZ4HtA="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"value": "c19d120df84fcc83ea747bc10bf00c43",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"card_no\":621250003352524533,\n \"real_name\":\"jack.su\",\n \"bank_deposit_area\":\"新疆维吾尔自治区/自治区直辖县级行政区划/阿拉尔市/659002519000\",\n \"bank_deposit_name\":\"兵团开户支行\",\n \"phone\":\"13868170930\",\n \"code\":691173\n\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/bank/add",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"bank",
+										"add"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取银行卡列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/bank/all",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"bank",
+										"all"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "预留手机号码验证",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"value": "iYXPtMhkGYaJ8VbPwyu8cP9rdow=",
+										"type": "text"
+									},
+									{
+										"key": "SC-API-APP",
+										"value": "app9321c3096489b2aab073ee479ce61f10",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"business_type\":3,\n \"account\":13868170930\n\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/verify/sendCode",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"verify",
+										"sendCode"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "反馈",
+					"item": [
+						{
+							"name": "删除反馈",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "g9wLUSEuA+SMvavHd0EG/TUOqs8="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/feedback/delete?feedback_id=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"feedback",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "feedback_id",
+											"value": "1"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取反馈信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "g9wLUSEuA+SMvavHd0EG/TUOqs8="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/feedback/get?feedback_id=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"feedback",
+										"get"
+									],
+									"query": [
+										{
+											"key": "feedback_id",
+											"value": "1"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取反馈列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "xUNQ98qjLFs4XQraPyWaF1O2III="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/feedback/all?feedback_type=0",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"feedback",
+										"all"
+									],
+									"query": [
+										{
+											"key": "feedback_type",
+											"value": "0"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取反馈类型列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/feedback/type.list",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"feedback",
+										"type.list"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| gov_area_id |  政府区域ID | string |\n| parent_id |    上一级地址ID   |   string |\n| name | 区域名称 |    string |\n| level |第几级，总共四级 |    string |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "添加反馈",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "QGuogk/b2CNOVh5a2jj/cq3Y7/c="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "fe129e7f45461010fda8a23983d70245"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "feedback_type",
+											"value": "1",
+											"description": "问题建议类型",
+											"type": "text"
+										},
+										{
+											"key": "feedback_desc",
+											"value": "0",
+											"description": "问题建议描述",
+											"type": "text"
+										},
+										{
+											"key": "feedback_images[]",
+											"description": "图片数组1",
+											"type": "file",
+											"src": "/C:/Users/Admin/Desktop/私人/图片/1-1612240U217.jpg"
+										},
+										{
+											"key": "feedback_images[]",
+											"description": "图片数组2",
+											"type": "file",
+											"src": "/C:/Users/Admin/Desktop/私人/图片/118487362.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/feedback/add",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"feedback",
+										"add"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "实名认证",
+					"item": [
+						{
+							"name": "OCR识别初始化",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "ba561077005a64deed4b144598248024"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/ocr.init",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"ocr.init"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| app_id |  APPID | string |\n| version |    腾讯云API版本   |   string |\n| userId | 用户标识 |    int |\n| nonceStr | 随机字符串 |    string |\n| sign | 签名 |    string |\n| orderNo | 订单号 |    string |\n| ip | 客户端IP |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "OCR识别结果",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "x72C3ZZEkFa0QP5WfZTUkreBqZo="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2120930e2a598fc3fbd56091b5567b27"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"orderNo\": \"0\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/ocr.result",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"ocr.result"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| orderNo | 订单号 |    string |\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| frontCode |  人像面识别结果，0表示成功 | int |\n| backCode |    国徽面识别结果，0表示成功   |   string |\n| name | 姓名 |    string |\n| idcard | 身份证号 |    string |\n| sex | 性别 |    string |\n| nation | 民族 |    string |\n| birth | 生日 |    string |\n| address | 地址 |    string |\n| validDate | 证件的有效期 |    string |\n| authority | 发证机关 |    string |\n| frontPhoto | 人像面照片 |    string |\n| backPhoto | 国徽面照片 |    string |\n| headPhoto | 身份证头像照片 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "手动录入/修改姓名&身份证",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "awglrs3qGPOCF7Hl3gcxoj/KaS0="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2120930e2a598fc3fbd56091b5567b27"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"张三\",\n    \"idcard\": \"422801198904013653\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/saveInfo",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"saveInfo"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| name | 姓名 |    string |\n| idcard | 身份证 |    string |\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|"
+							},
+							"response": []
+						},
+						{
+							"name": "人脸核身初始化",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2120930e2a598fc3fbd56091b5567b27"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/verify.init",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"verify.init"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| webankAppId |  APPID | string |\n| version |    腾讯云API版本   |   string |\n| userId | 用户标识 |    int |\n| nonceStr | 随机字符串 |    string |\n| sign | 签名 |    string |\n| orderNo | 订单号 |    string |\n| faceId | 此次刷脸用户标识 |    string |\n| ip | 客户端IP |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "人脸核身结果",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "x72C3ZZEkFa0QP5WfZTUkreBqZo="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2120930e2a598fc3fbd56091b5567b27"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"orderNo\": \"0\"\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/verify.result?orderNo=2&business_no=201232232412412&business_type=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"verify.result"
+									],
+									"query": [
+										{
+											"key": "orderNo",
+											"value": "2",
+											"description": "人脸识别流水号"
+										},
+										{
+											"key": "business_no",
+											"value": "201232232412412",
+											"description": "业务流水号，如任务号"
+										},
+										{
+											"key": "business_type",
+											"value": "1",
+											"description": "业务类型"
+										}
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| orderNo | 订单号 |    string |\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| liveRate | 活体检测得分 |    string |\n| similarity | 人脸比对得分 |    string |\n| photo | 人脸核身时的照片 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取认证信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "660085dd72450552178b04c6804fcfa1"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/certification/info",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"certification",
+										"info"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| status | 认证状态。0：认证中；1：OCR认证通过；2：人脸核身通过 | int |\n| frontCode |  人像面识别结果，0表示成功 | int |\n| backCode |    国徽面识别结果，0表示成功   |   string |\n| name | 姓名 |    string |\n| idcard | 身份证号 |    string |\n| sex | 性别 |    string |\n| nation | 民族 |    string |\n| birth | 生日 |    string |\n| address | 地址 |    string |\n| validDate | 证件的有效期 |    string |\n| authority | 发证机关 |    string |\n| frontPhoto | 人像面照片 |    string |\n| backPhoto | 国徽面照片 |    string |\n| headPhoto | 身份证头像照片 |    string |\n| liveRate | 活体检测得分 |    string |\n| similarity | 人脸比对得分 |    string |\n| photo | 人脸核身时的照片 |    string |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "标签",
+					"item": [
+						{
+							"name": "获取可用的标签",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "6da1a31729a4ca3e155ffff1022657ff"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/label/list.available?label_type=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"label",
+										"list.available"
+									],
+									"query": [
+										{
+											"key": "label_type",
+											"value": "1",
+											"description": "标签类型 0表示雇主 1表示帮手"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取用户最高的标签数",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2b18bbc9c6b5c60607c05d6b9eb8dcb9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/label/list.hot?label_type=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"label",
+										"list.hot"
+									],
+									"query": [
+										{
+											"key": "label_type",
+											"value": "1",
+											"description": "标签类型 0表示雇主 1表示帮手"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "黑名单",
+					"item": [
+						{
+							"name": "添加黑名单",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "fc22bb4c272f140c3ea2678049786786"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/black/add?black_user_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"black",
+										"add"
+									],
+									"query": [
+										{
+											"key": "black_user_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取黑名单",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "fc22bb4c272f140c3ea2678049786786"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/black/get?black_user_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"black",
+										"get"
+									],
+									"query": [
+										{
+											"key": "black_user_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "删除黑名单",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "fc22bb4c272f140c3ea2678049786786"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/user/black/remove?black_user_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"user",
+										"black",
+										"remove"
+									],
+									"query": [
+										{
+											"key": "black_user_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "主页",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "授权",
+					"item": [
+						{
+							"name": "支付宝授权",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "690f7b636fd5f54eba756783bf20e09e"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://sc-api.250.cn/user/alipay/grant",
+									"protocol": "https",
+									"host": [
+										"sc-api",
+										"250",
+										"cn"
+									],
+									"path": [
+										"user",
+										"alipay",
+										"grant"
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "pool",
+			"item": [
+				{
+					"name": "地址库",
+					"item": [
+						{
+							"name": "获取省级地址列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "21d6b11b0b8517313055b2ce4b5b3c20"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/pool/address/provinces",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"pool",
+										"address",
+										"provinces"
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| gov_area_id |  政府区域ID | string |\n| parent_id |    上一级地址ID   |   string |\n| name | 区域名称 |    string |\n| level |第几级，总共四级 |    string |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取子级地址列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "tLKw1p9WJqFC6PIPkg62fSA3jqw="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "21d6b11b0b8517313055b2ce4b5b3c20"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "api.supercoo.com/pool/address/associateNextLevel?area_gov_id=422800000000",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"pool",
+										"address",
+										"associateNextLevel"
+									],
+									"query": [
+										{
+											"key": "area_gov_id",
+											"value": "422800000000"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "获取所有的父级",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "fItrYk9LvYOGJaFq88NfEIrhUxA="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "21d6b11b0b8517313055b2ce4b5b3c20"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.supercoo.com/pool/address/allParent?area_gov_id=659002519000",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"pool",
+										"address",
+										"allParent"
+									],
+									"query": [
+										{
+											"key": "area_gov_id",
+											"value": "659002519000"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						},
+						{
+							"name": "根据code获取级别信息",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "c0JlVbpa8WBEdIMQCsKRHY8MabM="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app571ee64a61eba3d1f895274d334f917d"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "da661cc04023b92950c05b5d2cc84b5d"
+									},
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.fresh.com/pool/address/get.code?code=422801",
+									"host": [
+										"api",
+										"fresh",
+										"com"
+									],
+									"path": [
+										"pool",
+										"address",
+										"get.code"
+									],
+									"query": [
+										{
+											"key": "code",
+											"value": "422801"
+										}
+									]
+								},
+								"description": "tst"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "配置",
+					"item": [
+						{
+							"name": "获取单个配置",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "jK5MWpOJDQgKjj+6H6VOODlKqI8="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.supercoo.com/pool/config/get?key=max_size",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"pool",
+										"config",
+										"get"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "max_size"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取多个配置",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "jK5MWpOJDQgKjj+6H6VOODlKqI8="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "c19d120df84fcc83ea747bc10bf00c43"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "api.supercoo.com/pool/config/gets?key=max_size",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"pool",
+										"config",
+										"gets"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "max_size"
+										}
+									]
+								},
+								"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "common",
+			"item": [
+				{
+					"name": "文件上传",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "/uL6FtZjYGkl/LoF25mWNoDaVgo="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "5b9116c5799b4d54d8e08c2e1f9df7ae"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "video",
+									"description": "文件地址",
+									"type": "file",
+									"src": "/C:/Users/Admin/Desktop/2.mp4"
+								},
+								{
+									"key": "copy_url",
+									"value": "",
+									"description": "证件副本",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "directory",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "sc-api.250.cn/common/upload/index",
+							"host": [
+								"sc-api",
+								"250",
+								"cn"
+							],
+							"path": [
+								"common",
+								"upload",
+								"index"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "录音文件转码及分片",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "/uL6FtZjYGkl/LoF25mWNoDaVgo="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "622337e987c49e5f85348abcfc2a1a4d"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "api.supercoo.com/common/record/transform",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"common",
+								"record",
+								"transform"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "App全局配置",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "/uL6FtZjYGkl/LoF25mWNoDaVgo="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "622337e987c49e5f85348abcfc2a1a4d"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "original_url[]",
+									"description": "文件地址",
+									"type": "file",
+									"src": "/C:/Users/Admin/Desktop/私人/图片/1-1612240U217.jpg"
+								},
+								{
+									"key": "copy_url",
+									"value": "",
+									"description": "证件副本",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "directory",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "api.supercoo.com/common/config/index",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"common",
+								"config",
+								"index"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取app最新版本",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "/uL6FtZjYGkl/LoF25mWNoDaVgo="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "2a04f83e349dcb70b3ce2aee4cc4baab"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "app_name",
+									"value": "全民帮帮",
+									"description": "文件地址",
+									"type": "text"
+								},
+								{
+									"key": "version",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "app_type",
+									"value": "ios",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "api.supercoo.com/common/upgrade/index",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"common",
+								"upgrade",
+								"index"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |\n\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "换算地址经纬度信息",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "c19d120df84fcc83ea747bc10bf00c43"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "api.supercoo.com/pool/address/altitude?area_gov_id=422801000000 ",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"pool",
+								"address",
+								"altitude"
+							],
+							"query": [
+								{
+									"key": "area_gov_id",
+									"value": "422801000000 "
+								}
+							]
+						},
+						"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取地址信息",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "c19d120df84fcc83ea747bc10bf00c43"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "api.supercoo.com/pool/address/get.name?province=湖北省&city=恩施土家族苗族自治州&region=恩施市",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"pool",
+								"address",
+								"get.name"
+							],
+							"query": [
+								{
+									"key": "province",
+									"value": "湖北省"
+								},
+								{
+									"key": "city",
+									"value": "恩施土家族苗族自治州"
+								},
+								{
+									"key": "region",
+									"value": "恩施市"
+								}
+							]
+						},
+						"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取所有省份",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "c19d120df84fcc83ea747bc10bf00c43"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "api.supercoo.com/pool/address/provinces",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"pool",
+								"address",
+								"provinces"
+							]
+						},
+						"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取地址所有的父级",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "c19d120df84fcc83ea747bc10bf00c43"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "api.supercoo.com/pool/address/allParent?area_gov_id=422801000000 ",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"pool",
+								"address",
+								"allParent"
+							],
+							"query": [
+								{
+									"key": "area_gov_id",
+									"value": "422801000000 "
+								}
+							]
+						},
+						"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取下一级地址",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "krIVENhyAYAvm8imk3X3qIlAzZ4="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "c19d120df84fcc83ea747bc10bf00c43"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "api.supercoo.com/pool/address/associateNextLevel?area_gov_id=422801000000 ",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"pool",
+								"address",
+								"associateNextLevel"
+							],
+							"query": [
+								{
+									"key": "area_gov_id",
+									"value": "422801000000 "
+								}
+							]
+						},
+						"description": "### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| user_phone |  电话 | string |\n| user_name |    姓名   |   string |\n| province | 省份 |    string |\n| city |城市 |    string |\n| region | 区域 |    string |\n| street | 街道、乡 |    string |\n| address_detail | 详细地址 |    string |\n| address_id | 政府区域标识 |    int |\n| is_default | 是否默认地址 |    int |\n| lng | 经度 |    string |\n| lat | 纬度 |    string |"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "message",
+			"item": [
+				{
+					"name": "im",
+					"item": [
+						{
+							"name": "获取用户IM标识",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "660085dd72450552178b04c6804fcfa1"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/message/im/getLoginParams",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"message",
+										"im",
+										"getLoginParams"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| app_id |  APPID | string |\n| version |    腾讯云API版本   |   string |\n| userId | 用户标识 |    int |\n| nonceStr | 随机字符串 |    string |\n| sign | 签名 |    string |\n| orderNo | 订单号 |    string |\n| ip | 客户端IP |    string |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取客服",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "8430f39cd921a7742b5cbc33a2113989"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/message/im/customerService",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"message",
+										"im",
+										"customerService"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| app_id |  APPID | string |\n| version |    腾讯云API版本   |   string |\n| userId | 用户标识 |    int |\n| nonceStr | 随机字符串 |    string |\n| sign | 签名 |    string |\n| orderNo | 订单号 |    string |\n| ip | 客户端IP |    string |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "comment",
+					"item": [
+						{
+							"name": "获取帮手评价列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "22746c0db076a229bd4a3b2a2f6c3870"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/comment/task/list.helper?page=1&user_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"comment",
+										"task",
+										"list.helper"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "user_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| system_unread_num | 系统消息未读数量 | int |\n| order_unread_num | 订单消息未读数量 | int |\n| chat_unread_num | 聊天消息未读数量 | int |\n| unread_num | 总计未读数量 | int |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取雇主评价列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "2b18bbc9c6b5c60607c05d6b9eb8dcb9"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/comment/task/list.employer?page=1&user_id=7",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"comment",
+										"task",
+										"list.employer"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "user_id",
+											"value": "7"
+										}
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| system_unread_num | 系统消息未读数量 | int |\n| order_unread_num | 订单消息未读数量 | int |\n| chat_unread_num | 聊天消息未读数量 | int |\n| unread_num | 总计未读数量 | int |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "通知",
+					"item": [
+						{
+							"name": "获取通知列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "10611cf029b17e0ecff135f36110265d"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/notice/list",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"notice",
+										"list"
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| system_unread_num | 系统消息未读数量 | int |\n| order_unread_num | 订单消息未读数量 | int |\n| chat_unread_num | 聊天消息未读数量 | int |\n| unread_num | 总计未读数量 | int |"
+							},
+							"response": []
+						},
+						{
+							"name": "获取订单通知列表",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "SC-API-SIGNATURE",
+										"type": "text",
+										"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+									},
+									{
+										"key": "SC-API-APP",
+										"type": "text",
+										"value": "app9321c3096489b2aab073ee479ce61f10"
+									},
+									{
+										"key": "SC-ACCESS-TOKEN",
+										"type": "text",
+										"value": "10611cf029b17e0ecff135f36110265d"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}"
+								},
+								"url": {
+									"raw": "api.supercoo.com/notice/list.order?page=1",
+									"host": [
+										"api",
+										"supercoo",
+										"com"
+									],
+									"path": [
+										"notice",
+										"list.order"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								},
+								"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| system_unread_num | 系统消息未读数量 | int |\n| order_unread_num | 订单消息未读数量 | int |\n| chat_unread_num | 聊天消息未读数量 | int |\n| unread_num | 总计未读数量 | int |"
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "未读消息数量",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "10611cf029b17e0ecff135f36110265d"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n}"
+						},
+						"url": {
+							"raw": "api.supercoo.com/message/unread",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"message",
+								"unread"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| system_unread_num | 系统消息未读数量 | int |\n| order_unread_num | 订单消息未读数量 | int |\n| chat_unread_num | 聊天消息未读数量 | int |\n| unread_num | 总计未读数量 | int |"
+					},
+					"response": []
+				},
+				{
+					"name": "消息列表",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "10611cf029b17e0ecff135f36110265d"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"type\": 0,\n\t\"page\": 1,\n\t\"pageSize\": 10\n}"
+						},
+						"url": {
+							"raw": "api.supercoo.com/message/list",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"message",
+								"list"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| type | 消息类型。0：系统消息；1：订单消息；2：聊天消息 | int |\n| page | 页码 | int |\n| pageSize | 数量 | int |\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| total | 总页籹 | int |\n| list | 结果数组 | array |\n| list.rid | 消息记录ID | int |\n| list.message_id | 消息主体ID | int |\n| list.m_type | 消息类型 | int |\n| list.m_sub_type | 消息子类型 | int |\n| list.state | 是否已读。0：未读；1：已读 | int |\n| list.created_at | 消息时间 | int |\n| list.msg | 消息体 | object |\n| list.msg.title | 消息标题 | string |\n| list.msg.content | 消息内容 | string |"
+					},
+					"response": []
+				},
+				{
+					"name": "消息详情",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "SC-API-SIGNATURE",
+								"type": "text",
+								"value": "bpaDrQxee8gbo2xt5+H2iPctQ2g="
+							},
+							{
+								"key": "SC-API-APP",
+								"type": "text",
+								"value": "app9321c3096489b2aab073ee479ce61f10"
+							},
+							{
+								"key": "SC-ACCESS-TOKEN",
+								"type": "text",
+								"value": "660085dd72450552178b04c6804fcfa1"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 1\n}"
+						},
+						"url": {
+							"raw": "api.supercoo.com/message/detail",
+							"host": [
+								"api",
+								"supercoo",
+								"com"
+							],
+							"path": [
+								"message",
+								"detail"
+							]
+						},
+						"description": "### request param\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| id | 消息记录ID | int |\n\n### response\n| name   |      desc      |  type |\n|----------|:-------------:|------:|\n| rid | 消息记录ID | int |\n| message_id | 消息主体ID | int |\n| m_type | 消息类型 | int |\n| m_sub_type | 消息子类型 | int |\n| state | 是否已读。0：未读；1：已读 | int |\n| created_at | 消息时间 | int |\n| msg | 消息体 | object |\n| msg.title | 消息标题 | string |\n| msg.content | 消息内容 | string |"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
