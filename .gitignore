@@ -20,3 +20,4 @@ public/uploads/
 package-lock.json
 /storage/command/
 /storage/command/*.txt
+.idea
